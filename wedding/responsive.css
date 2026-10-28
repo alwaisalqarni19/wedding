@@ -1,0 +1,41 @@
+@media (max-width: 720px) {
+
+  .sec {
+    padding: 3.5rem 1.2rem;
+  }
+
+  .divider.wide {
+    height: 300px;
+  }
+
+  .story .has-img {
+    grid-template-columns: 1fr;
+    direction: ltr !important;
+  }
+
+  .story .has-img img {
+    max-width: 240px;
+    margin: 0 auto;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .countdown {
+    gap: .5rem;
+  }
+
+  .countdown div {
+    width: 66px;
+  }
+
+  .couple {
+    height: 40svh;
+    bottom: 14%;
+  }
+
+  .name {
+    font-size: 1.8rem;
+  }
+}

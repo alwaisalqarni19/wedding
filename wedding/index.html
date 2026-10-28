@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sekar &amp; Galih Undangan Pernikahan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+  <button id="musicBtn" aria-label="Putar musik">♪</button>
+
+  <canvas id="petals" style="position:fixed; inset:0; pointer-events:none; z-index:40"></canvas>
+
+  <section class="hero" id="hero">
+
+    <div class="stage">
+      <img class="layer bg" src="asset/images/hero/baground.png" alt="">
+      <img class="layer couple" src="asset/images/hero/pasangan_potong.png" alt="Sekar &amp; Galih">
+      <img class="layer frame" src="asset/images/hero/dekor.png" alt="">
+    </div>
+
+    <div class="hero-text">
+      <p class="kicker">THE WEDDING OF</p>
+      <h1>Sekar <span>&amp;</span> Galih</h1>
+      <p class="date">12 · 12 · 2026</p>
+    </div>
+
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <img src="asset/svg/icons/panah.png" alt="">
+    </div>
+
+  </section>
+
+
+  <main class="paper">
+
+  
+    <section class="sec center">
+
+      <img class="mono reveal" src="asset/svg/monogram/1.png" alt="Monogram S&amp;G">
+
+      <p class="quote reveal">
+        “Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan pasangan untukmu dari jenismu sendiri,
+        agar kamu merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.”
+        <br>
+        <small>QS. Ar-Rum: 21</small>
+      </p>
+
+      <div class="row g-4 align-items-center reveal">
+
+        <div class="col-12 col-md-5">
+          <h2 class="name">Sekar Ayu Pramesti</h2>
+          <p>Putri dari Bapak Hendra Pramesti &amp; Ibu Ratna Wulandari</p>
+        </div>
+
+        <div class="col-12 col-md-2">
+          <span class="amp">&amp;</span>
+        </div>
+
+        <div class="col-12 col-md-5">
+          <h2 class="name">Galih Ardiansyah</h2>
+          <p>Putra dari Bapak Surya Ardiansyah &amp; Ibu Lestari Handayani</p>
+        </div>
+
+      </div>
+
+      <div class="countdown reveal">
+        <div><b id="cd-d">0</b><small>Hari</small></div>
+        <div><b id="cd-h">0</b><small>Jam</small></div>
+        <div><b id="cd-m">0</b><small>Menit</small></div>
+        <div><b id="cd-s">0</b><small>Detik</small></div>
+      </div>
+
+    </section>
+
+    <section class="sec center">
+
+      <h2 class="script reveal">The Wedding Program</h2>
+      <p class="big reveal">Sabtu, 12 Desember 2026</p>
+
+      <ul class="rundown reveal">
+        <li><img src="asset/svg/icons/jam.png" alt=""><b>08.00 WIB</b> Akad Nikah</li>
+        <li><img src="asset/svg/icons/jam.png" alt=""><b>11.00 WIB</b> Resepsi</li>
+        <li><img src="asset/svg/icons/jam.png" alt=""><b>12.30 WIB</b> Makan siang</li>
+        <li><img src="asset/svg/icons/jam.png" alt=""><b>14.00 WIB</b> Sesi foto bersama</li>
+      </ul>
+
+    </section>
+
+    <section class="divider">
+      <img src="asset/images/divider/gandengan.jpg" alt="">
+      <h2 class="script">Our love story</h2>
+    </section>
+
+    <section class="sec story">
+
+      <article class="reveal">
+        <h3>Awal Bertemu <em>2019</em></h3>
+        <p>
+          Sekar dan Galih pertama kali bertemu di sebuah acara kampus. Galih yang saat itu panitia
+          kebingungan mencari kunci ruangan, dan Sekar yang kebetulan lewat membantunya mencari.
+          Perkenalan singkat itu ternyata jadi awal dari semuanya.
+        </p>
+      </article>
+
+      <article class="reveal has-img">
+        <img src="asset/images/story/pacaraan.png" alt="">
+        <div>
+          <h3>Mulai Dekat <em>2020</em></h3>
+          <p>
+            Obrolan lewat pesan singkat perlahan berubah menjadi kebiasaan. Mereka saling bertukar
+            cerita tentang mimpi, buku favorit, dan kopi yang paling enak di Surabaya.
+          </p>
+        </div>
+      </article>
+
+      <article class="reveal has-img">
+        <img src="asset/images/story/lamaran.jpg" alt="">
+        <div>
+          <h3>Memutuskan Bersama <em>2022</em></h3>
+          <p>
+            Galih mengajak Sekar ke taman tempat mereka pertama kali berjalan berdua. Di sana ia
+            menyatakan keseriusannya, dan Sekar menjawab dengan senyum yang sudah lama ia simpan.
+          </p>
+        </div>
+      </article>
+
+      <article class="reveal has-img">
+        <img src="asset/images/story/nikah.jpg" alt="">
+        <div>
+          <h3>Menuju Hari Bahagia <em>2026</em></h3>
+          <p>
+            Dengan restu kedua keluarga, Galih melamar Sekar di bawah langit sore yang biru.
+            Kini mereka siap melangkah bersama.
+          </p>
+        </div>
+      </article>
+
+    </section>
+
+    <section class="sec center">
+
+      <h2 class="script reveal">The Entourage</h2>
+
+      <div class="row g-4 justify-content-center reveal">
+
+        <div class="col-12 col-md-6">
+          <h4>Dengan restu orang tua</h4>
+          <p>
+            Bapak Hendra Pramesti &amp; Ibu Ratna Wulandari<br>
+            Bapak Surya Ardiansyah &amp; Ibu Lestari Handayani
+          </p>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <h4>Pendamping</h4>
+          <p>
+            Best man: Raka Ardiansyah<br>
+            Maid of honor: Dinda Pramesti
+          </p>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <h4>Penerima tamu</h4>
+          <p>
+            Alya Putri, Bima Saputra,<br>
+            Citra Lestari, Dimas Pratama
+          </p>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <h4>Pembawa cincin &amp; bunga</h4>
+          <p>Kenzo (6 th) &amp; Naura (5 th)</p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="divider wide">
+      <img src="asset/images/divider/pelukan_3x.png" alt="">
+      <h2 class="script">The Details</h2>
+    </section>
+
+    <section class="sec center">
+
+      <h4 class="reveal">Dress code</h4>
+      <img class="dress reveal" src="asset/svg/icons/baju.png" alt="Dress code">
+      <p class="reveal">Formal batik atau kebaya untuk wanita, jas atau batik untuk pria</p>
+
+      <h4 class="reveal">Color guide</h4>
+      <div class="swatches reveal">
+        <i style="background:#1F3A8A"></i>
+        <i style="background:#4A6FB5"></i>
+        <i style="background:#A9C4EB"></i>
+        <i style="background:#D6E4F5"></i>
+        <i style="background:#F7F4EE"></i>
+      </div>
+
+      <h4 class="reveal">Gift guide</h4>
+      <p class="reveal">
+        Kehadiran dan doa restu Anda adalah hadiah terbaik bagi kami. Jika ingin memberi tanda kasih:<br>
+        <b>BCA 1234567890</b> a.n. Sekar Ayu Pramesti<br>
+        <b>Mandiri 0987654321</b> a.n. Galih Ardiansyah
+      </p>
+
+      <p class="reveal"><b>#SekarGalihForever</b> · @sekar.galih.wedding</p>
+
+    </section>
+
+    <section class="sec center">
+
+      <h2 class="script reveal">The Venues</h2>
+
+      <div class="row g-4 justify-content-center">
+
+        <div class="col-12 col-md-6 reveal">
+          <div class="card venue h-100 border-0 bg-transparent">
+            <img src="asset/images/venue/vanue_akad.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h3 class="card-title">Akad Nikah</h3>
+              <p class="card-text">Masjid Nasional Al-Akbar Surabaya<br>Jl. Masjid Al-Akbar Timur No.1, Pagesangan, Kec. Jambangan, Surabaya, Jawa Timur 60233</p>
+              <a class="btn" href="https://maps.app.goo.gl/VAPLqhJ9aK5NwzyP7" target="_blank" rel="noopener">Lihat Peta</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 reveal">
+          <div class="card venue h-100 border-0 bg-transparent">
+            <img src="asset/images/venue/vanue_nikah.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h3 class="card-title">Resepsi</h3>
+              <p class="card-text">Shamaya Ballroom and Garden<br>Jl. Embong Sawo No.1, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271</p>
+              <a class="btn" href="https://share.google/dNvI7wVguuPo2Z3nr" target="_blank" rel="noopener">Lihat Peta</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="divider wide">
+      <img src="asset/images/divider/cincin_3x.png" alt="">
+      <h2 class="script">The Gallery</h2>
+    </section>
+
+    <section class="sec">
+      <div class="gallery" id="gallery"></div>
+    </section>
+
+    <section class="sec center">
+
+      <h2 class="script reveal">R.S.V.P</h2>
+
+      <p class="reveal">Konfirmasi kehadiran paling lambat <b>28 November 2026</b></p>
+
+      <a class="btn reveal" id="rsvp" target="_blank" rel="noopener" href="#">Konfirmasi via WhatsApp</a>
+
+      <p class="reminder reveal">
+        <b>Gentle reminder</b><br>
+        Mohon hadir tepat waktu agar acara berjalan lancar. Demi kenyamanan bersama, mohon tidak
+        membawa tamu di luar yang tertera pada undangan, dan jaga suasana khidmat selama prosesi.
+      </p>
+
+      <p class="script end reveal">Sekar &amp; Galih</p>
+
+    </section>
+
+  </main>
+
+
+  <div class="lightbox" id="lightbox">
+    <img alt="">
+  </div>
+
+  <audio id="bgm" src="asset/audio/music.mp3" loop preload="auto"></audio>
+
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="countdown.js"></script>
+  <script src="animations.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
